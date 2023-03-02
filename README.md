@@ -2,7 +2,12 @@
 
 
 <h2>Description</h2>
-This project dealt with the development of an application that would display data collected from the machines on the shop floor with high-frequency. 
+This project dealt with the development of an application that would display data collected from the machines on the shop floor in Real-time. 
+
+The organization for which I performed this project  had a lot of valuable information on the shop floor that it couldn't collect and analyze in an efficient manner.
+
+<h4>Project Goals:</h4>
+1.
 <br />
 
 
