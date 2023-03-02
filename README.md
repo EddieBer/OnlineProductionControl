@@ -1,9 +1,8 @@
 # <h1>Real-time Control</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This project dealt with the development of an application that would display high-frequency (almost real-time) data collected from the machines on the shop floor. 
+This project dealt with the development of an application that would display data collected from the machines on the shop floor with high-frequency. 
 <br />
 
 
