@@ -7,7 +7,7 @@ This project dealt with the development of an application that would display dat
 The organization for which I performed this project  had a lot of valuable information on the shop floor that it couldn't collect and analyze in an efficient manner.
 
 <h4>Project Goals:</h4>
-1.
+1. Creating real-time visualizations by high frequency collection of data from the shop floor.
 <br />
 
 
