@@ -7,7 +7,16 @@ This project dealt with the development of an application that would display dat
 The organization for which I performed this project  had a lot of valuable information on the shop floor that it couldn't collect and analyze in an efficient manner.
 
 <h4>Project Goals:</h4>
-1. Creating real-time visualizations by high frequency collection of data from the shop floor.
+1. Creating visualizations with high frequency collection of data from the shop floor.<br />
+2. Improving the control of production processes,Early detection of problems,Preventing    problems before they occur.<br />
+3. Provide a convenient way for displaying and analyzing the data: The data will be properly collected and transformed with an ETL process. 
+Before the project was carried out it was required to manually connect a large amount of raw data located in separate excel files. It was very difficult to do every time and perform the required analysis effectively. This project should help with this problem.
+<br />
+
+<h3></h3>
+
+The first machine included in this project performs a coating of liquid silicone on paper which then goes through a cutting process (according to the width of paper that required in the order).
+
 <br />
 
 
