@@ -14,10 +14,29 @@ Before the project was carried out it was required to manually connect a large a
 <br />
 
 <h3></h3>
-
+<br />
+<h3></h3>
 The first machine included in this project performs a coating of liquid silicone on paper which then goes through a cutting process (according to the width of paper that required in the order).
 
 <br />
+First, we would like to collect the data from the relevant sources. 
+The sources are basically two systems which are Connected with the machine:<br />
+1. System that measures the weight of the liquid material that is coated on the paper.<br />
+2. System that measures the humidity of the paper while it’s going through the machine.<br />
+
+<br />These systems extract a csv file every certain period of time to specific folders on their server.
+<h3></h3>
+<br />
+<h4>Creating an ETL process</h4>
+At this point we will actually want to Define an organized collection of all the csv files into one file,Performing transformations if necessary and finally loading the data into the application.
+<br />
+Every time we will look for the newest csv file in the folder and we will concatenate it with the old data that was already in the application before:
+<br />
+<br />
+<a href="https://ibb.co/2hcf4pB"><img src="https://i.ibb.co/tKYWr15/etl1.jpg" alt="etl1" border="0"></a>
+
+
+
 
 
 <h2>Languages and Utilities Used</h2>
