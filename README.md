@@ -38,7 +38,6 @@ Every time we will look for the newest csv file in the folder and we will concat
 <a href="https://ibb.co/Ns806yy"><img src="https://i.ibb.co/ZVnQ6MM/etl3.jpg" alt="etl3" border="0"></a>
 
 
-
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
