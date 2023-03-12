@@ -27,56 +27,35 @@ The sources are basically two systems which are Connected with the machine:<br /
 <br />These systems extract a csv file every certain period of time to specific folders on their server.
 <h3></h3>
 <br />
-<h4>Creating an ETL process</h4>
-At this point we will actually want to Define an organized collection of all the csv files into one file,Performing transformations if necessary and finally loading the data into the application.
+<h2>Creating an ETL process</h2>
+At this point we will actually want to define an organized collection of all the csv files into one file,Performing transformations if necessary and finally loading the data into the application.
+<br />
 <br />
 Every time we will look for the newest csv file in the folder and we will concatenate it with the old data that was already in the application before:
 <br />
 <br />
 <a href="https://ibb.co/2hcf4pB"><img src="https://i.ibb.co/tKYWr15/etl1.jpg" alt="etl1" border="0"></a>
 <a href="https://ibb.co/yWNvVg0"><img src="https://i.ibb.co/ZWf4Ncd/etl2.jpg" alt="etl2" border="0"></a>
-<a href="https://ibb.co/Ns806yy"><img src="https://i.ibb.co/ZVnQ6MM/etl3.jpg" alt="etl3" border="0"></a>
 <a href="https://ibb.co/5vfBKVJ"><img src="https://i.ibb.co/4M5P1x0/etl333.png" alt="etl333" border="0"></a>
 
-<h2>Languages and Utilities Used</h2>
-
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
-
-<h2>Program walk-through:</h2>
-
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+now for the transformation + Loading into the app:
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://ibb.co/28JNfNS"><img src="https://i.ibb.co/f8JvPv9/trans.jpg" alt="trans" border="0"></a>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h2>Creating the dashboards:</h2>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://ibb.co/f21sWdN"><img src="https://i.ibb.co/HVFjyTP/Main-Dashboard.png" alt="Main-Dashboard" border="0"></a>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://ibb.co/W3RDYj5"><img src="https://i.ibb.co/sPX5MzR/Humid-Dashboard.png" alt="Humid-Dashboard" border="0"></a>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<a href="https://ibb.co/vdZNJrd"><img src="https://i.ibb.co/NNZ0LkN/Coating-Dashboard.png" alt="Coating-Dashboard" border="0"></a>
 
 <!--
  ```diff
